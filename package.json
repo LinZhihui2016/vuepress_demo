@@ -1,0 +1,15 @@
+{
+  "name": "vuepress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "pull": "node index",
+    "build": "yarn vuepress build .",
+    "build:pull": "yarn pull && yarn vuepress build ."
+  },
+  "dependencies": {
+    "leancloud-storage": "^4.10.0",
+    "vuepress": "^1.8.0"
+  }
+}
